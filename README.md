@@ -16,6 +16,30 @@ This project focuses on performing exploratory data analysis (EDA) on the Pima I
 - Matplotlib
 - Seaborn
 - NumPy
+  
+## File Structure
+├── data/
+│ └── diabetes.csv # Dataset file
+├── notebooks/
+│ └── diabetes_analysis.ipynb # Jupyter Notebook with analysis
+├── requirements.txt # Python dependencies
+├── README.md # This file
+└── .gitignore
+
+## How to Run
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/diabetes-analysis.git
+   cd diabetes-analysis
+
+2. Install required Python libraries:
+
+pip install -r requirements.txt
+
+3. Launch Jupyter Notebook:
+   jupyter notebook notebooks/diabetes_analysis.ipynb
 
 ## Author
 - Andrew Tran
